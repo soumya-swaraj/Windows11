@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.taskbar {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    justify-content: center;
+    width: 100vw;
+    background-color: #cedcf8;
+    z-index: 1;
+}
+
+.middle {
+    display: flex;
+}
+
+.right {
+    display: flex;
+    position: absolute;
+    right: 0px;
+}
+
+.m_icon {
+    height: 25px;
+    transition: all .2s;
+}
+
+.m_icon_c {
+    height: 27px;
+    width: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 6px;
+    z-index: 1;
+}
+
+.r_icon {
+    height: 16px;
+    transition: all .2s;
+}
+
+.r_iconshi {
+    height: 12px;
+    transition: all .2s;
+}
+
+.r_iconl {
+    height: 20px;
+    transition: all .2s;
+}
+
+.r_iconbig {
+    height: 27px;
+}
+
+.r_icon_c, .r_icon_c1, .r_icon_c2, .r_icon_c3, .r_icon_c4 {
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 4px;
+}
+
+#r_icon_rightmost {
+    margin-right: 15px;
+}
+
+video {
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.m_icon:active {
+    height: 20px;
+}
+.start_menu_img {
+    z-index: 1;
+    height: 600px;
+    width: 578.862;
+    position: absolute;
+    bottom: -600px;
+    border-radius: 13px;
+    left: calc(50% - 289.431px);
+    transition: all .4s;
+}
